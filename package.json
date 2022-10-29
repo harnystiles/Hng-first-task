@@ -2,7 +2,7 @@
   "name": "hng9",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nogist.github.io/Hng-first-task",
+  "homepage": "https://nogist.github.io/Hng-first-task/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
