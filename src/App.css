@@ -6,26 +6,28 @@
   text-decoration: none;
 }
 .App {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  height: 100vh;
-  background: #FFFFFF;
-
+  height: 1158px;
+  background-color: white;
 }
 
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 1024px) {
-  .App {
-    background: blue;
-  }
-}
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 480px) {
+/* Smaller decices (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 859px) {
   .App {
-    background: #48ff0030;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1088px;
+    overflow: scroll;
+    
   }
 }

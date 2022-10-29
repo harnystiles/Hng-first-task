@@ -7,14 +7,8 @@ import git from '../../assets/Icon.png'
 const Social = () => {
   return (
     <div className='social'>
-      <div  className='social-link'>
-        <div className='social-link-content'>
-          <div className='social-link-container'>
-            <img src={slack} alt='slack' />
-            <img src={git} alt='slack' />
-          </div>
-      </div>
-      </div>
+      <img src={slack} alt='slack' />
+      <img src={git} alt='slack' />
     </div>
   )
 }

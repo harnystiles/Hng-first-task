@@ -7,8 +7,7 @@ import ing from '../../assets/I4G.png';
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='footer-content'>
-        <div className='footer-content-box'>
+        <div className='footer-content'>
           <div className='Zuri-vector'>
             <img className='dot' src={dot} alt='zuri-logo' />
             <img className='zuri' src={zuri} alt='zuri-logo' />
@@ -16,7 +15,6 @@ const Footer = () => {
           <p> HNG Internship 9 Frontend Task</p>
           <img src={ing} alt='ingressive for good' />
         </div>
-      </div>
     </div>
   )
 }

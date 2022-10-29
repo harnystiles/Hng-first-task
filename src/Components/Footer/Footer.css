@@ -1,75 +1,65 @@
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 48px 0px;
-  gap: 64px;
-
-  position: absolute;
   width: 100%;
   height: 160px;
-  left: 0px;
-  top: 998px;
-
-}
-.footer-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  padding: 0px 32px;
-  gap: 32px;
-
-  width: 1280px;
-  height: 64px;
+  align-items: center;
+  padding: 48px 112px;
+ 
 }
-.footer-content-box {
+.footer-content{
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding: 32px 0px 0px;
+  align-items: flex-end;
   gap: 32px;
-
-  width: 1216px;
-  height: 64px;
   border-top: 1px solid #EAECF0;
-  }
-.zuri-vector {
-  width: 187.59px;
-  height: 32px;
 }
-img.dot {
-  position: absolute;
- 
-  
-}
-img.zuri {
-  position: absolute;
-  
- 
-}
- p {
-  width: 832.28px;
-  height: 24px;
-
-  /* Text md/Normal */
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
+.footer p {
+  font-family: var(--font-family);
+  font-weight:400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
-  text-align: center;
-
-  /* Gray/500 */
-
   color: #667085;
 }
-/* img {
-  width: 132.13px;
-  height: 32px;
-} */
+img.dot {
+ position: relative;
+ left: 59px;
+ bottom: 6px;
+}
+
+
+
+
+/* Smalller devices (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 859px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    height: 196px;
+  }
+  .footer-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .footer p {
+    font-family: var(--font-family);
+    font-weight:400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+  }
+}
+
+
